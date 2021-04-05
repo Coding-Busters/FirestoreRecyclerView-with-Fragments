@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#EFE8A4"
+    android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/list_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/list_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_below="@+id/list_name"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
